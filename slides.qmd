@@ -485,13 +485,13 @@ _Read the slide_
 * JupyterLab- and browser-native (try it in a JupyterHub!)
 * Python API
 * Supports QGIS project files
-* Coming soon: STAC browser!
+* WIP: STAC browser!
 * **_Real-time collaboration_**: like Google Docs, but on a map!
 :::
 
 . . .
 
-:house: All under one roof (JupyterLab)!
+:house: All under one familiar roof (JupyterLab)!
 
 
 ## Demo
