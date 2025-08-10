@@ -40,7 +40,7 @@ def why_geojupyter(active: int | None = None) -> str:
       lst.append(f"* [{item}]{{.fade}}")
 
   return Markdown(f"""
-:face_with_head_bandage: Existing workflows are sometimes painfully imperfect:
+:face_with_head_bandage: Existing workflows are sometimes painfully imperfect.
 
 {"\n".join(lst)}
 """)
@@ -181,21 +181,17 @@ confidently engage with geospatial data**.
 :::
 
 :::notes
-What is GeoJupyter?
-
-Because geospatial data is important to everyone but not equally accessible to
-everyone, we believe it needs to be democratized. So...
-
 _Read the slide_
 
 Maybe the first thing that jumps out about this is how broad this mission is --
 that's intentional.
 We don't have all the solutions to this problem, but we know we can find them
 by working with you.
+
 What does it look like to **you** to **enable more people to confidently engage
 with geospatial data**?
 
-We want to hear from you, and I'll share how at the end.
+We want to hear from you, and I'll share how soon.
 :::
 
 
@@ -212,11 +208,11 @@ We want to hear from you, and I'll share how at the end.
 :::
 
 :::notes
-We believe open source and open science are critical to our effort to
-democratize geospatial data practice, so everything we do is free and open.
+We believe in open source and open science, so everything we do is free and
+open.
 
-And it's important to us to create tools that combine the strengths of many
-amazing existing tools.
+And it's important to us to create tools that unify the strengths of current 
+tools and workflows.
 
 Desktop GIS tools offer **approachability** and **playfulness**.
 
@@ -250,8 +246,8 @@ Why are we doing this?
 
 Because working with data about our planet is hard.
 
-What we're bringing to the table is a holistic and human-centered approach to
-evaluating and improving this landscape.
+What we're bringing to the table is a holistic, human-centered, and
+participatory approach to evaluating and improving this landscape.
 
 So far we've conducted dozens of hours of user interviews to understand what folks need
 most, and we'll continue to use the input of real people to guide our priorities.
@@ -271,7 +267,7 @@ why_geojupyter(0)
 ```
 
 :::notes
-Geospatial is hard, **even for experts**.
+First, geospatial is hard, **even for experts**.
 
 We **all** struggle sometimes.
 :::
@@ -440,18 +436,27 @@ We'll show more shortly!
 why_geojupyter(3)
 ```
 
+:::{style="font-size: 80%"}
 _And much, much more!!_
 
-:::{style="font-size: 80%"}
-* Visualizing features of vertical landscapes
-* Repeatable GIS layer structure and symbology
-* :question:
+* Friction reproducing GUI spatial processing
+* Analyzing and visualizing features of vertical landscapes
 :::
+
+. . .
+
+:::{style="font-size: 80%"}
+...IDK, you tell us! :ear:
+:::
+
 
 :::notes
 The landscape of open source geospatial tools is far from perfect.
 
-There's lots more to do, and we want to hear what's important to you.
+...
+
+There's a lot that needs solving, and we are far from having all the answers!
+This is why we are building a community.
 :::
 
 
