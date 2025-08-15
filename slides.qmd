@@ -103,7 +103,7 @@ I also love dogs, gardening, and playing music on drums and keyboards :grin:
 
 :::notes
 In this talk, I'm going to introduce the GeoJupyter community and discuss why it exists.
-I'll then introduce and demo the JupyterGIS software.
+I'll then introduce and the JupyterGIS software.
 Finally, we'll talk about how you can join the community.
 :::
 
@@ -211,7 +211,7 @@ We want to hear from you, and I'll share how soon.
 We believe in open source and open science, so everything we do is free and
 open.
 
-And it's important to us to create tools that unify the strengths of current 
+And it's important to us to create tools that unify the strengths of current
 tools and workflows.
 
 Desktop GIS tools offer **approachability** and **playfulness**.
@@ -348,7 +348,16 @@ Another challenge that we've heard widely reported by users is friction when
 visualizing data about our planet from a programming environment, like a
 Jupyter Notebook.
 
-The process users described has many repeated steps, like a dance.
+We've found many practitioners are perfectly comfortable writing code for
+analysis, but visualizing data is an entirely different skill from analysis.
+There's a wide variety of visualization libraries with unique and sometimes
+frustrating interfaces.
+It can be hard to choose, and each choice has a tradeoff.
+Depending on the chosen library, practitioners may struggle to visualize many
+datasets together, or to interact with the visualization in a meaningful way,
+or to control the details of the visualization.
+
+To get around this, practitioners described a process with many steps, like a dance.
 We heard this so often that we gave it a name: "The GIS Bounce".
 :::
 
@@ -384,8 +393,8 @@ If you're working in a cloud environment, download that data file.
 "Bounce" over to QGIS, load up a basemap, and then finally load your data.
 Now you can do your validation and "bounce" back to your notebook, and repeat!
 
-That's a lot of steps, and they are repeated every time a practitioner does a
-critical task: checking their work.
+That's a lot of steps, and they are repeated every time many practitioners
+check their work -- a common and critical task.
 
 Checking our work shouldn't be frustrating and time-consuming, it should be
 seamless, joyful, and rewarding.
@@ -424,9 +433,7 @@ So we developed an interface for this in JupyterGIS, a function called `explore(
 It's still rough around the edges, but it's available now! :tada:
 
 It enables the user to pass geospatial data directly to a visualization
-environment with **one line of code**.
-
-We'll show more shortly!
+environment running alongside their notebook with **one line of code**.
 :::
 
 
@@ -494,11 +501,16 @@ _Read the slide_
 :house: All under one familiar roof (JupyterLab)!
 
 
+---
+
+![A screenshot of JupyterGIS](https://github.com/geojupyter/jupytergis/raw/main/jupytergis.png)
+
+
 ## Demo
 
 :bulb: Lite: <https://jupytergis.readthedocs.io/en/latest/lite/lab/>
 
-:test_tube: Lab: <http://34.71.209.73:8888/>
+:test_tube: Lab: <http://localhost:8888>
 
 :::notes
 _Open in private window:_
