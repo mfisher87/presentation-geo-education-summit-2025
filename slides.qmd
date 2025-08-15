@@ -159,6 +159,10 @@ going to be a huge project or GIS-first.
 It depends on what our community (that's you!) tells us they need.
 :::
 
+---
+
+![A photo of participants of a recent GeoJupyter Hackathon](/assets/images/hackathon-group-photo.jpg)
+
 
 ## :question: What is GeoJupyter?
 
